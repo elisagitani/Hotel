@@ -29,3 +29,12 @@ nav {
  .barra:hover {
         background-color: darksalmon;
  }
+
+ #container{
+
+     background-color:lightblue;
+
+ }
+ h3{
+     color:darkblue;
+ }

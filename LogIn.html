@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>LogIn</title>
+    <script src="LogIn.js"></script>
+    <link href="Login.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <img src="https://normanno.com/N0rm4nn0/wp-content/uploads/2020/06/bonus-vacanze-vacanza-2020.jpg" width="500" height="300" />
+        <h1 id="registrati" align="center">&nbsp;Registrati</h1>
+    </header>
+    
+    <img src="login.png" width="100" height="100" />
+    <form>
+        <label>Username</label>
+        <input id="user" type="text" placeholder="Inserisci il tuo Username" onclick="control()" required="required" />
+        <br />
+        <br />
+        <br />
+        <input id="logIn" disabled="disabled" type="submit" value="LOGIN" onclick="save()"/>
+        <input id="logOut" disabled="disabled" type="button" value="LOGOUT" onclick="cancella()"/>
+        <input type="button" onclick="location.href='HomePage.html'" value="Torna alla Home " />
+    </form>
+</body>
+</html>

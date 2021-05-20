@@ -1,3 +1,6 @@
-﻿function greet() {
-    alert("Benvenuti nel sito dell'Hotel Mediterraneo");
+﻿function benvenuto() {
+    var name = localStorage.getItem('Utente');
+    if(name!=null)
+    alert("Benvenuto"+' '+ name);
 }
+

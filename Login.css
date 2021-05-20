@@ -1,0 +1,17 @@
+﻿body {
+    background-color: beige;
+}
+
+#registrati {
+    display: inline;
+    font-family: castellar;
+    font-size: 100px;
+    color: coral;
+}
+
+header {
+    background-color: aquamarine;
+    display: flex;
+    /*justify-content:center;*/
+    align-items: center;
+}
